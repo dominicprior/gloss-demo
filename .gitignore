@@ -1,5 +1,6 @@
 dist
 cabal-dev
+*~
 *.o
 *.hi
 *.chi
@@ -14,3 +15,4 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work/
+demo1
