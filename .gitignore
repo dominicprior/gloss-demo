@@ -15,4 +15,4 @@ cabal.sandbox.config
 *.aux
 *.hp
 .stack-work/
-demo1
+demo[1-9]
