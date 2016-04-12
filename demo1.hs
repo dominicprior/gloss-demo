@@ -1,5 +1,3 @@
 import Graphics.Gloss
-
-mode = InWindow "" (400, 300) (10, 10)
-
-main = display mode white (Circle 50)
+win = InWindow "" (400, 300) (10, 10)
+main = display win white (Circle 50)
