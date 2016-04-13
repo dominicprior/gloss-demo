@@ -1,0 +1,18 @@
+These are the steps for going from demo4.hs to demo5.hs.
+
+First we change the model from a pair to a list of pairs:
+
+main >>>   (100,100) -> (replicate 30 (0,0))
+draw >>>   (x,y) -> (_:blobs)
+draw >>>   f [1..20] -> blob blobs
+blob >>>   r -> (x,y)
+blob >>>   r 0 -> x y
+blob >>>   10 20 -> 5 10
+comment out ev
+
+plug ev back in:
+
+ev >>>     _ -> xy
+ev >>>     xy -> xy:b
+
+Finally, add the step and drift functions.
