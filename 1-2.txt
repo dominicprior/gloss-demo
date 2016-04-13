@@ -1,0 +1,23 @@
+These are the steps for going from demo1.hs to demo2.hs.
+
+After each of these steps, we have something we can run.
+
+Circle -> ThickCircle
+
+Color azure
+
+Translate 100 0
+
+Extract out to the blob variable
+
+blob -> Rotate 45 blob
+
+Rotate 45 blob -> Pictures [blob, Rotate 45 blob]
+
+Add c
+
+Add f  ;  [f 1, f 2, f 3, f 4]
+
+[f 1, f 2, f 3, f 4] -> map f [1..4]
+
+map f [1..20]

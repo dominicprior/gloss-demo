@@ -1,0 +1,13 @@
+These are the steps for going from demo3.hs to demo4.hs.
+
+Add import
+
+blob -> blob r
+
+-- tons of explanation about the "play" function!
+
+animate -> play ; draw t -> draw (x,y) ; ev = undefined ; step = undefined
+
+ev _ w = w ; step _ w = w
+
+ev (EventMotion (x,y)) _ = (x,y)

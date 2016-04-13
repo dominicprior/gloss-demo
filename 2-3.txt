@@ -1,0 +1,10 @@
+These are the steps for going from demo2.hs to demo3.hs.
+
+We can run after each of these 3 steps (even though the
+first two steps don't make any visible difference).
+
+Extract the (zero arg) draw function.
+
+Make f into a where clause of the draw function.
+
+display -> animate ; draw -> draw t ; n*15 -> t*n*5
